@@ -1,0 +1,20 @@
+{
+  "name": "Zer0 Silver Token",
+  "description": "A valuable silver token in the Zer0 ecosystem.",
+  "image": "https://plum-familiar-dove-320.mypinata.cloud/ipfs/bafkreicyyjsi5k3v3kzcxhrsw6bweydqeq7v76wn6d2sdjxgagbhadltze",
+  "external_url": "https://plum-familiar-dove-320.mypinata.cloud/ipfs/bafkreicyyjsi5k3v3kzcxhrsw6bweydqeq7v76wn6d2sdjxgagbhadltze",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Currency"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Weight",
+      "value": 5000
+    }
+  ]
+}
