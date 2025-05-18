@@ -1,6 +1,11 @@
 
 在0G 伽利略测试网 (Chain ID: 16601)上创建ERC20 ERC721 ERC1155
 
+## ⚠️ 注意事项
+
+**🚨 切记：`.env` 文件中的私钥（PRIVATE_KEY）绝不能暴露或提交到 Git 仓库！**
+可配合.gitignore文件忽略该类文件提交
+
 ## 前置条件
 
 *   安装Node.js
