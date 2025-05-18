@@ -16,10 +16,10 @@
     ```bash
     cp .env.example .env
     ```
-3.  编辑 `.env`文件，如私钥，rcp地址，合约地址等:
+3.  编辑 `.env`文件，如私钥，rcp地址，合约地址（部署成功后再返回维护）等:
     ```dotenv
-    PRIVATE_KEY="YOUR_PRIVATE_KEY_HERE"
-    RPC_URL="https://rpc-testnet.0g.ai"
+    PRIVATE_KEY="你的私钥（注意要去掉0x）"
+    RPC_URL="替换为你的或官方rpc"
     ```
 
 ## 编译
@@ -49,22 +49,22 @@ mint ERC20代币
 ```bash
     node .\script\mint_ERC20.js
 ```
-mint_ERC721
+mint ERC721
 ```bash
     node .\script\mint_ERC721.js
 ```
 
-mint_ERC1155
+mint ERC1155
 ```
 node .\script\mint_ERC1155.js
 ```
 
-查询ERC1155代币余额(里面有指定token id，还发现非代码问题，等会琢磨下)
+查询 ERC1155代币余额(里面有指定token id，还发现非代码问题，等会琢磨下)
 ```
 node .\script\query_ERC1155.js
 ```
 
-销毁代币
+销毁 代币
 ```
 node .\script\burn_ERC1155.js 
 ```
