@@ -1,6 +1,6 @@
 require('dotenv').config(); // 这会加载.env文件中的变量到 process.env
 const Web3 = require('web3');
-const contractArtifact = require('../build/contracts/Zer0NFT.json');
+const contractArtifact = require('../build/contracts/MyERC721.json');
 
 const rpcURL = process.env.RPC_URL; //配置里的rpc
 const privateKey = process.env.PRIVATE_KEY.startsWith('0x') ? process.env.PRIVATE_KEY : '0x' + process.env.PRIVATE_KEY; //配置里的私钥，还判断要不要拼接0x

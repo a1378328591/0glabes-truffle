@@ -1,5 +1,5 @@
-const Zer0NFT = artifacts.require("Zer0NFT");
+const MyERC721 = artifacts.require("MyERC721");
 
 module.exports = async function (deployer) {
-  await deployer.deploy(Zer0NFT);
+  await deployer.deploy(MyERC721);
 };

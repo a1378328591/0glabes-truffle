@@ -1,5 +1,5 @@
-const Zer0ERC1155 = artifacts.require("Zer0ERC1155");
+const MyERC1155 = artifacts.require("MyERC1155");
 
 module.exports = function (deployer) {
-  deployer.deploy(Zer0ERC1155);
+  deployer.deploy(MyERC1155);
 };

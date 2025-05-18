@@ -2,7 +2,7 @@ require("dotenv").config();
 const Web3 = require("web3");
 
 // 加载合约 ABI
-const contractJson = require("../build/contracts/Zer0ERC1155.json");
+const contractJson = require("../build/contracts/MyERC1155.json");
 const abi = contractJson.abi;
 
 // 初始化 web3
